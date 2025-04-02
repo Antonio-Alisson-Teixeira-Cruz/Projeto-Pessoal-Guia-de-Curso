@@ -1,8 +1,8 @@
 const changeThemeBtn = document.getElementById('changeThemeIcon')
 changeThemeBtn.addEventListener('click', changeTheme)
 
-const body = document.getElementById('lightTheme')
-const topMenu = document.getElementById('topLightTheme')
+const body = document.getElementById('body')
+const topMenu = document.getElementById('header')
 
 function changeTheme() {
     body.classList.toggle('darkTheme')
