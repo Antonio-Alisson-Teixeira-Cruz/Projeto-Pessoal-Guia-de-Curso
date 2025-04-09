@@ -169,8 +169,8 @@
 .warning {
     color: red;
     font-weight: bold;
-    text-stroke-width: 1px;
-    text-stroke-color: rgb(112, 13, 34);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(112, 13, 34);
 }
 
 a {
