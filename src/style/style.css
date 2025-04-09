@@ -169,6 +169,7 @@
 .warning {
     color: red;
     font-weight: bold;
+    border: solid 1px rgb(136, 8, 8);
 }
 
 a {
