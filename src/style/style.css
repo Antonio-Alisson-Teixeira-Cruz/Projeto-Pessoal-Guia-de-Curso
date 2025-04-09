@@ -75,7 +75,7 @@
 
 
 .ds {
-    display: inline-block;
+    display: block;
     border: solid 3px rgb(0, 0, 41);
     border-radius: 20px;
     width: 400px;
@@ -98,7 +98,7 @@
 }
 
 .admin {
-    display: inline-block;
+    display: block;
     border: solid 3px rgb(0, 0, 41);
     border-radius: 20px;
     width: 400px;
@@ -121,7 +121,7 @@
 }
 
 .financas {
-    display: inline-block;
+    display: block;
     border: solid 3px rgb(0, 0, 41);
     border-radius: 20px;
     width: 400px;
@@ -144,7 +144,7 @@
 }
 
 .redes {
-    display: inline-block;
+    display: block;
     border: solid 3px rgb(0, 0, 41);
     border-radius: 20px;
     width: 400px;
