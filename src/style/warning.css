@@ -1,0 +1,134 @@
+:root {
+    --light-color: #cce5ff;
+    --dark-color: #0073e6;
+    --top-light-color: #66a3ff;
+    --top-dark-color: #003d80;
+    --footer-color: #00244b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topLightTheme {
+    background-color: var(--top-light-color);
+    color: var(--top-dark-color);
+    padding: 0px;
+    margin: 0px;
+}
+
+.topDarkTheme {
+    background-color: var(--top-dark-color);
+    color: #85a6d8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lightTheme {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 0px;
+    padding: 0px;
+}
+
+.lightTheme a {
+    color: var(--dark-color);
+}
+
+.darkTheme {
+    background-color: var(--dark-color);
+    color: #bddaff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.darkTheme a {
+    color: #bddaff;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 50%;
+
+    margin: 10px 0 10px 20px;
+}
+
+.changeThemeIcon {
+    border-radius: 10px;
+    padding: 10px;
+    float: inline-end;
+    border: none;
+    background-color: #1b5fc5;
+
+    margin: 25px 40px 0 0 ;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(112, 13, 34);
+    background-color: rgb(238, 59, 98);
+    color: rgb(112, 13, 34);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.warning h1 {
+    font-size: 60px;
+}
+
+.warning p {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.warning div {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--footer-color);
+    color: #1b5fc5;
+    margin: 100px 0 0 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color:#cce5ff;
+}
+
+.footer div {
+    margin: 20px;
+}
+.footerImg {
+    display: inline-block;
+    align-self: flex-start;
+}
+
+.footerLogo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.footerLinks {
+    display: inline-block; 
+}
+
+.footer p {
+    font-size: 25px;
+}
+
+.linkList{
+    list-style-type: none;
+    font: 20px;
+}
